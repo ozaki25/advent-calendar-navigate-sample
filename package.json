@@ -1,0 +1,14 @@
+{
+  "name": "advent-calendar-navigate-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2"
+  },
+  "scripts": {
+    "build": "npx parcel-bundler build index.html --out-dir dist --public-url dist"
+  }
+}
