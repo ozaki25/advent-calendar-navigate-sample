@@ -22,7 +22,7 @@ function Top() {
       <h1>Advent Calendar Sample</h1>
       <a href="/home" onClick={onClickHome}>
         home
-      </a>
+      </a>{' '}
       <a href="/hello" onClick={onClickHello}>
         hello
       </a>
