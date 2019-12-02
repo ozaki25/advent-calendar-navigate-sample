@@ -40,7 +40,7 @@ function Home() {
     <>
       <h1>Home</h1>
       <a href="/hello" onClick={onClick}>
-        hello
+        Helloへ
       </a>
     </>
   );
@@ -56,7 +56,7 @@ function Hello() {
     <>
       <h1>Hello</h1>
       <a href="/home" onClick={onClick}>
-        hello
+        Homeへ
       </a>
     </>
   );
