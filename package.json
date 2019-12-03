@@ -9,6 +9,6 @@
     "react-router-dom": "^5.1.2"
   },
   "scripts": {
-    "build": "cp config/* dist && npx parcel-bundler build index.html --out-dir dist"
+    "build": "npx parcel-bundler build index.html --out-dir dist && cp config/* dist/"
   }
 }
